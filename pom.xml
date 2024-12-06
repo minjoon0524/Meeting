@@ -147,19 +147,11 @@
                         <artifactId>lombok</artifactId>
                     </exclude>
                 </excludes>
-                <!-- 추가 -->
-                <executable>true</executable>
+
             </configuration>
         </plugin>
         <!-- 추가: WAR 플러그인 -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <configuration>
-                <failOnMissingWebXml>false</failOnMissingWebXml>
-                <warName>ROOT</warName>  <!-- WAR 파일 이름을 ROOT.war로 설정 -->
-            </configuration>
-        </plugin>
+
     </plugins>
 </build>
 
