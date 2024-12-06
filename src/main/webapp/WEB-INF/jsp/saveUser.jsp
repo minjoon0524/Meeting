@@ -8,7 +8,7 @@
 <body>
 <div class="container mt-4">
     <h2>Save New User</h2>
-    <form action="http://localhost:8080/user/save" method="post" class="mt-3" >
+    <form action="http://http://54.180.163.146/:8080/user/save" method="post" class="mt-3" >
         <div class="form-group">
             <label for="username">Username:</label>
             <input type="text" class="form-control" id="username" name="username" required>
